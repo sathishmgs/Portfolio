@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" fill="none">
+  <defs>
+    <linearGradient id="invBg" x1="0" y1="0" x2="640" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#080c16" />
+      <stop offset="100%" stop-color="#141d2f" />
+    </linearGradient>
+    <linearGradient id="invAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="50%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="380" fill="url(#invBg)" />
+  <circle cx="540" cy="90" r="140" fill="#10b981" fill-opacity="0.14" />
+  <circle cx="110" cy="300" r="130" fill="#0ea5e9" fill-opacity="0.12" />
+
+  <!-- Outer Window -->
+  <rect x="44" y="34" width="552" height="312" rx="16" fill="#0b1322" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Top App Navigation -->
+  <rect x="64" y="52" width="512" height="40" rx="10" fill="#101b2d" />
+  <circle cx="84" cy="72" r="5" fill="#ef4444" />
+  <circle cx="98" cy="72" r="5" fill="#f59e0b" />
+  <circle cx="112" cy="72" r="5" fill="#10b981" />
+  
+  <rect x="136" y="64" width="146" height="16" rx="6" fill="url(#invAccent)" />
+  <text x="144" y="76" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="700">INVENTORY &amp; BILLING</text>
+  
+  <rect x="410" y="62" width="80" height="20" rx="10" fill="#1e293b" />
+  <text x="450" y="76" text-anchor="middle" fill="#94a3b8" font-family="ui-monospace, monospace" font-size="9">GST READY</text>
+  
+  <rect x="498" y="62" width="66" height="20" rx="10" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-opacity="0.4" />
+  <text x="531" y="76" text-anchor="middle" fill="#34d399" font-family="ui-monospace, monospace" font-size="9" font-weight="700">POS ACTIVE</text>
+
+  <!-- Metric Badges Row -->
+  <rect x="64" y="104" width="118" height="64" rx="10" fill="#0f1a2c" stroke="#1e293b" />
+  <text x="76" y="122" fill="#94a3b8" font-family="system-ui" font-size="9">Total SKUs</text>
+  <text x="76" y="146" fill="#ffffff" font-family="system-ui" font-size="18" font-weight="800">4,820</text>
+  <rect x="76" y="154" width="50" height="4" rx="2" fill="#38bdf8" />
+
+  <rect x="194" y="104" width="118" height="64" rx="10" fill="#0f1a2c" stroke="#1e293b" />
+  <text x="206" y="122" fill="#94a3b8" font-family="system-ui" font-size="9">Today Sales</text>
+  <text x="206" y="146" fill="#34d399" font-family="system-ui" font-size="18" font-weight="800">₹48,950</text>
+  <rect x="206" y="154" width="55" height="4" rx="2" fill="#10b981" />
+
+  <rect x="324" y="104" width="118" height="64" rx="10" fill="#0f1a2c" stroke="#1e293b" />
+  <text x="336" y="122" fill="#94a3b8" font-family="system-ui" font-size="9">Low Stock Alert</text>
+  <text x="336" y="146" fill="#f87171" font-family="system-ui" font-size="18" font-weight="800">12 items</text>
+  <rect x="336" y="154" width="40" height="4" rx="2" fill="#ef4444" />
+
+  <rect x="454" y="104" width="122" height="64" rx="10" fill="#0f1a2c" stroke="#1e293b" />
+  <text x="466" y="122" fill="#94a3b8" font-family="system-ui" font-size="9">Invoices Issued</text>
+  <text x="466" y="146" fill="#e2e8f0" font-family="system-ui" font-size="18" font-weight="800">142</text>
+  <rect x="466" y="154" width="60" height="4" rx="2" fill="#f59e0b" />
+
+  <!-- Left: Live Invoicing / POS Terminal Panel -->
+  <rect x="64" y="180" width="310" height="148" rx="12" fill="#0d1728" stroke="#1e293b" />
+  <text x="80" y="202" fill="#e2e8f0" font-family="system-ui" font-size="11" font-weight="700">Quick POS Billing &amp; Tax Invoice #INV-2026-88</text>
+  
+  <rect x="80" y="216" width="278" height="24" rx="5" fill="#121e33" />
+  <text x="90" y="232" fill="#cbd5e1" font-family="ui-monospace" font-size="9">Item SKU: #8841 Premium Filter Set</text>
+  <text x="280" y="232" fill="#34d399" font-family="ui-monospace" font-size="9">₹1,450.00</text>
+
+  <rect x="80" y="244" width="278" height="24" rx="5" fill="#0e192c" />
+  <text x="90" y="260" fill="#cbd5e1" font-family="ui-monospace" font-size="9">Item SKU: #5520 Industrial Valve x4</text>
+  <text x="280" y="260" fill="#34d399" font-family="ui-monospace" font-size="9">₹3,800.00</text>
+
+  <rect x="80" y="272" width="278" height="24" rx="5" fill="#121e33" />
+  <text x="90" y="288" fill="#94a3b8" font-family="ui-monospace" font-size="9">GST (18% Integrated)</text>
+  <text x="280" y="288" fill="#94a3b8" font-family="ui-monospace" font-size="9">₹945.00</text>
+
+  <rect x="80" y="300" width="130" height="18" rx="4" fill="url(#invAccent)" />
+  <text x="145" y="313" text-anchor="middle" fill="#ffffff" font-family="system-ui" font-size="9" font-weight="700">Print Tax Receipt</text>
+  <text x="315" y="313" text-anchor="end" fill="#38bdf8" font-family="system-ui" font-size="11" font-weight="800">Total: ₹6,195</text>
+
+  <!-- Right: Stock Velocity & Barcode Lookup -->
+  <rect x="386" y="180" width="190" height="148" rx="12" fill="#0d1728" stroke="#1e293b" />
+  <text x="402" y="202" fill="#e2e8f0" font-family="system-ui" font-size="11" font-weight="700">Stock Turnover</text>
+  <text x="548" y="202" fill="#10b981" font-family="ui-monospace" font-size="9">+24.8%</text>
+
+  <!-- Barcode Simulation -->
+  <rect x="402" y="216" width="158" height="34" rx="6" fill="#111d31" stroke="#334155" />
+  <g fill="#94a3b8">
+    <rect x="414" y="222" width="2" height="22" />
+    <rect x="418" y="222" width="4" height="22" />
+    <rect x="424" y="222" width="1" height="22" />
+    <rect x="428" y="222" width="3" height="22" />
+    <rect x="434" y="222" width="5" height="22" />
+    <rect x="442" y="222" width="2" height="22" />
+    <rect x="446" y="222" width="3" height="22" />
+    <rect x="452" y="222" width="1" height="22" />
+    <rect x="456" y="222" width="4" height="22" />
+    <rect x="464" y="222" width="2" height="22" />
+    <rect x="470" y="222" width="6" height="22" />
+    <rect x="480" y="222" width="2" height="22" />
+    <rect x="486" y="222" width="4" height="22" />
+    <rect x="494" y="222" width="1" height="22" />
+    <rect x="498" y="222" width="3" height="22" />
+    <rect x="504" y="222" width="2" height="22" />
+    <rect x="510" y="222" width="4" height="22" />
+    <rect x="518" y="222" width="2" height="22" />
+    <rect x="524" y="222" width="3" height="22" />
+    <rect x="532" y="222" width="5" height="22" />
+    <rect x="542" y="222" width="2" height="22" />
+  </g>
+
+  <!-- Stock Trend Line -->
+  <polyline points="404,296 430,284 460,288 490,270 520,274 554,258" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <circle cx="554" cy="258" r="4" fill="#38bdf8" />
+  <rect x="402" y="308" width="158" height="10" rx="5" fill="#1e293b" />
+</svg>

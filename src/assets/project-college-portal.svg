@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" fill="none">
+  <defs>
+    <linearGradient id="cpBg" x1="0" y1="0" x2="640" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#050d1a" />
+      <stop offset="100%" stop-color="#0f1f38" />
+    </linearGradient>
+    <linearGradient id="cpAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="380" fill="url(#cpBg)" />
+  <circle cx="530" cy="80" r="140" fill="#6366f1" fill-opacity="0.15" />
+  <circle cx="100" cy="310" r="120" fill="#38bdf8" fill-opacity="0.12" />
+
+  <!-- Main Window Frame -->
+  <rect x="44" y="34" width="552" height="312" rx="16" fill="#0b1426" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Top App Navigation -->
+  <rect x="64" y="52" width="512" height="40" rx="10" fill="#101d36" />
+  <circle cx="84" cy="72" r="5" fill="#ef4444" />
+  <circle cx="98" cy="72" r="5" fill="#f59e0b" />
+  <circle cx="112" cy="72" r="5" fill="#10b981" />
+  
+  <rect x="136" y="64" width="130" height="16" rx="6" fill="url(#cpAccent)" />
+  <text x="144" y="76" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="700">COLLEGE PORTAL</text>
+  
+  <rect x="420" y="62" width="70" height="20" rx="10" fill="#1e293b" />
+  <text x="455" y="76" text-anchor="middle" fill="#94a3b8" font-family="ui-monospace, monospace" font-size="9">BCA DEPT</text>
+  
+  <rect x="498" y="62" width="66" height="20" rx="10" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-opacity="0.4" />
+  <text x="531" y="76" text-anchor="middle" fill="#34d399" font-family="ui-monospace, monospace" font-size="9" font-weight="700">PORTAL LIVE</text>
+
+  <!-- Left Sidebar / Student Info Card -->
+  <rect x="64" y="104" width="154" height="222" rx="12" fill="#111d33" stroke="#2563eb" stroke-opacity="0.3" />
+  <circle cx="141" cy="144" r="26" fill="#1e293b" stroke="#38bdf8" stroke-width="2" />
+  <path d="M133 148c0-4.4 3.6-8 8-8s8 3.6 8 8" fill="#38bdf8" />
+  <circle cx="141" cy="136" r="6" fill="#38bdf8" />
+  
+  <rect x="84" y="180" width="114" height="10" rx="5" fill="#e2e8f0" />
+  <rect x="94" y="196" width="94" height="8" rx="4" fill="#64748b" />
+  
+  <rect x="78" y="218" width="126" height="32" rx="8" fill="#0c1527" />
+  <text x="86" y="232" fill="#94a3b8" font-family="system-ui" font-size="9">Attendance</text>
+  <text x="86" y="244" fill="#34d399" font-family="system-ui" font-size="11" font-weight="700">96.4%</text>
+  <text x="160" y="238" fill="#38bdf8" font-family="system-ui" font-size="10" font-weight="700">SEM VI</text>
+
+  <rect x="78" y="258" width="126" height="24" rx="6" fill="#1e293b" />
+  <text x="141" y="274" text-anchor="middle" fill="#cbd5e1" font-family="ui-monospace, monospace" font-size="9">wuaze.com live</text>
+  <rect x="78" y="290" width="126" height="22" rx="6" fill="url(#cpAccent)" />
+  <text x="141" y="305" text-anchor="middle" fill="#ffffff" font-family="system-ui" font-size="9" font-weight="700">Admin Login</text>
+
+  <!-- Top KPI Cards -->
+  <rect x="230" y="104" width="108" height="66" rx="10" fill="#101c34" stroke="#1e293b" />
+  <text x="242" y="122" fill="#94a3b8" font-family="system-ui" font-size="9">Total Students</text>
+  <text x="242" y="146" fill="#ffffff" font-family="system-ui" font-size="18" font-weight="800">1,240</text>
+  <rect x="242" y="156" width="60" height="4" rx="2" fill="#38bdf8" />
+
+  <rect x="348" y="104" width="108" height="66" rx="10" fill="#101c34" stroke="#1e293b" />
+  <text x="360" y="122" fill="#94a3b8" font-family="system-ui" font-size="9">Courses / Dept</text>
+  <text x="360" y="146" fill="#ffffff" font-family="system-ui" font-size="18" font-weight="800">18</text>
+  <rect x="360" y="156" width="50" height="4" rx="2" fill="#6366f1" />
+
+  <rect x="466" y="104" width="110" height="66" rx="10" fill="#101c34" stroke="#1e293b" />
+  <text x="478" y="122" fill="#94a3b8" font-family="system-ui" font-size="9">CGPA Standing</text>
+  <text x="478" y="146" fill="#fbbf24" font-family="system-ui" font-size="18" font-weight="800">8.92</text>
+  <rect x="478" y="156" width="70" height="4" rx="2" fill="url(#goldAccent)" />
+
+  <!-- Academic Data Table / Management Module -->
+  <rect x="230" y="180" width="346" height="146" rx="12" fill="#0d172c" stroke="#1e293b" />
+  <text x="246" y="202" fill="#e2e8f0" font-family="system-ui" font-size="11" font-weight="700">Course &amp; Exam Schedule Management</text>
+  <rect x="490" y="191" width="72" height="16" rx="8" fill="#1e293b" />
+  <text x="526" y="203" text-anchor="middle" fill="#38bdf8" font-family="ui-monospace" font-size="8">PHP + MySQL</text>
+
+  <!-- Table Rows -->
+  <rect x="246" y="216" width="314" height="24" rx="6" fill="#13213d" />
+  <text x="256" y="232" fill="#cbd5e1" font-family="ui-monospace" font-size="9">BCA-601: Web App Architecture</text>
+  <text x="450" y="232" fill="#94a3b8" font-family="ui-monospace" font-size="9">Semester VI</text>
+  <rect x="520" y="221" width="34" height="14" rx="4" fill="#10b981" fill-opacity="0.2" />
+  <text x="537" y="232" text-anchor="middle" fill="#34d399" font-family="ui-monospace" font-size="8" font-weight="700">PASS</text>
+
+  <rect x="246" y="246" width="314" height="24" rx="6" fill="#0e1a32" />
+  <text x="256" y="262" fill="#cbd5e1" font-family="ui-monospace" font-size="9">BCA-602: Relational Databases &amp; SQL</text>
+  <text x="450" y="262" fill="#94a3b8" font-family="ui-monospace" font-size="9">Semester VI</text>
+  <rect x="520" y="251" width="34" height="14" rx="4" fill="#10b981" fill-opacity="0.2" />
+  <text x="537" y="262" text-anchor="middle" fill="#34d399" font-family="ui-monospace" font-size="8" font-weight="700">PASS</text>
+
+  <rect x="246" y="276" width="314" height="24" rx="6" fill="#13213d" />
+  <text x="256" y="292" fill="#cbd5e1" font-family="ui-monospace" font-size="9">BCA-603: Cloud Computing &amp; IoT</text>
+  <text x="450" y="292" fill="#94a3b8" font-family="ui-monospace" font-size="9">Semester VI</text>
+  <rect x="520" y="281" width="34" height="14" rx="4" fill="#38bdf8" fill-opacity="0.2" />
+  <text x="537" y="292" text-anchor="middle" fill="#38bdf8" font-family="ui-monospace" font-size="8" font-weight="700">A+</text>
+
+  <rect x="246" y="306" width="180" height="10" rx="5" fill="#1e293b" />
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" fill="none">
+  <defs>
+    <linearGradient id="erpBg" x1="0" y1="0" x2="640" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#060b18" />
+      <stop offset="100%" stop-color="#111a34" />
+    </linearGradient>
+    <linearGradient id="erpAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="380" fill="url(#erpBg)" />
+  <circle cx="520" cy="90" r="150" fill="#3b82f6" fill-opacity="0.14" />
+  <circle cx="110" cy="300" r="130" fill="#8b5cf6" fill-opacity="0.14" />
+
+  <rect x="44" y="36" width="552" height="308" rx="16" fill="#0b1325" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Header Bar -->
+  <rect x="64" y="54" width="512" height="38" rx="10" fill="#101b36" />
+  <rect x="80" y="67" width="110" height="12" rx="6" fill="url(#erpAccent)" />
+  <rect x="424" y="65" width="64" height="16" rx="8" fill="#1e293b" />
+  <rect x="498" y="65" width="64" height="16" rx="8" fill="#10b981" fill-opacity="0.25" stroke="#10b981" stroke-opacity="0.5" />
+  <text x="530" y="77" text-anchor="middle" fill="#34d399" font-family="ui-monospace, monospace" font-size="9" font-weight="700">API OK</text>
+
+  <!-- Module Cards -->
+  <rect x="64" y="108" width="160" height="86" rx="12" fill="#121f3d" stroke="#2563eb" stroke-opacity="0.35" />
+  <rect x="82" y="126" width="28" height="28" rx="8" fill="#3b82f6" fill-opacity="0.25" />
+  <path d="M96 133V147M89 140H103" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" />
+  <rect x="122" y="130" width="84" height="10" rx="5" fill="#e2e8f0" fill-opacity="0.85" />
+  <rect x="122" y="148" width="56" height="8" rx="4" fill="#38bdf8" fill-opacity="0.6" />
+  <rect x="82" y="168" width="124" height="8" rx="4" fill="#1e293b" />
+
+  <rect x="240" y="108" width="160" height="86" rx="12" fill="#121f3d" stroke="#8b5cf6" stroke-opacity="0.35" />
+  <rect x="258" y="126" width="28" height="28" rx="8" fill="#8b5cf6" fill-opacity="0.25" />
+  <circle cx="272" cy="140" r="7" stroke="#a855f7" stroke-width="2" />
+  <rect x="298" y="130" width="84" height="10" rx="5" fill="#e2e8f0" fill-opacity="0.85" />
+  <rect x="298" y="148" width="64" height="8" rx="4" fill="#a855f7" fill-opacity="0.65" />
+  <rect x="258" y="168" width="124" height="8" rx="4" fill="#1e293b" />
+
+  <rect x="416" y="108" width="160" height="86" rx="12" fill="#121f3d" stroke="#38bdf8" stroke-opacity="0.35" />
+  <rect x="434" y="126" width="28" height="28" rx="8" fill="#38bdf8" fill-opacity="0.2" />
+  <path d="M442 146L448 136L454 142L460 133" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="474" y="130" width="84" height="10" rx="5" fill="#e2e8f0" fill-opacity="0.85" />
+  <rect x="474" y="148" width="52" height="8" rx="4" fill="#38bdf8" fill-opacity="0.6" />
+  <rect x="434" y="168" width="124" height="8" rx="4" fill="#1e293b" />
+
+  <!-- Bottom Analytics + SQL Operations Panel -->
+  <rect x="64" y="210" width="316" height="112" rx="12" fill="#0f182e" stroke="#1e293b" />
+  <polyline points="86,292 134,268 182,276 230,244 278,254 352,226" stroke="url(#erpAccent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="230" cy="244" r="4" fill="#38bdf8" />
+  <circle cx="352" cy="226" r="4" fill="#a855f7" />
+
+  <rect x="396" y="210" width="180" height="112" rx="12" fill="#0f182e" stroke="#1e293b" />
+  <text x="414" y="234" fill="#94a3b8" font-family="ui-monospace, monospace" font-size="10">LARAVEL + SQL</text>
+  <rect x="414" y="248" width="144" height="14" rx="4" fill="#172544" />
+  <rect x="414" y="270" width="144" height="14" rx="4" fill="#172544" />
+  <rect x="414" y="292" width="110" height="14" rx="4" fill="#172544" />
+</svg>
+
